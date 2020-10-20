@@ -219,8 +219,7 @@ img {
       .offer__adv:hover .arrow_down-p {
         stroke: #44FFC9; }
   .offer__adv-text {
-    margin-left: 16px;
-    letter-spacing: normal; }
+    margin-left: 16px; }
   .offer__arrows {
     display: -webkit-box;
     display: -webkit-flex;
