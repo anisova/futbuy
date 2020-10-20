@@ -380,7 +380,6 @@ img {
     line-height: 25px; }
 
 .reviews-div {
-  background: url("../img/bg1.png") no-repeat center top/cover;
   margin-top: 40px;
   height: 230px;
   display: -webkit-box;
@@ -390,7 +389,22 @@ img {
   -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
-          align-items: center; }
+          align-items: center;
+  position: relative; }
+  .reviews-div__img1 {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    left: 0; }
+  .reviews-div__img2 {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    right: 0; }
 
 .reviews__link {
   display: -webkit-box;
