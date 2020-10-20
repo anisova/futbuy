@@ -546,8 +546,8 @@ img {
   display: -ms-inline-flexbox;
   display: inline-flex;
   background-color: #00F1FC;
-  -webkit-box-shadow: 3px 3px 0 #104E7B;
-          box-shadow: 3px 3px 0 #104E7B;
+  -webkit-box-shadow: 3px 3px 0 #12B1BA;
+          box-shadow: 3px 3px 0 #12B1BA;
   margin-left: 665px;
   z-index: 20;
   padding: 16px 66px 16px 66px;
