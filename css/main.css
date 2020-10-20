@@ -157,7 +157,8 @@ img {
     -webkit-box-shadow: 3px 3px 0 #B6B6B6;
             box-shadow: 3px 3px 0 #B6B6B6;
     margin-left: 20px;
-    font-style: italic; }
+    font-style: italic;
+    color: #333333; }
 
 .center {
   display: -webkit-box;
@@ -210,7 +211,7 @@ img {
     font-size: 12px;
     font-weight: 700;
     text-decoration: none;
-    color: #9d9d9d;
+    color: #828282;
     margin-top: 150px;
     line-height: 16px;
     letter-spacing: 0.2em; }
