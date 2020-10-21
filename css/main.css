@@ -58,7 +58,9 @@ html {
   font-weight: 700;
   background-color: black;
   color: white;
-  letter-spacing: 0.03em; }
+  letter-spacing: 0.03em;
+  -webkit-font-kerning: normal;
+          font-kerning: normal; }
 
 * {
   -webkit-box-sizing: border-box;
@@ -135,7 +137,8 @@ img {
   outline: none;
   -webkit-transition: 0.1s;
   -o-transition: 0.1s;
-  transition: 0.1s; }
+  transition: 0.1s;
+  line-height: 24px; }
   .btn:hover {
     -webkit-transform: scale(1.05);
         -ms-transform: scale(1.05);
@@ -341,6 +344,8 @@ img {
 
 .arrow_down {
   margin-bottom: 6px; }
+  .arrow_down:last-child {
+    margin: 0; }
 
 .advantages {
   display: -webkit-box;
