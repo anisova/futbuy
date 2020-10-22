@@ -179,7 +179,7 @@ img {
           align-items: center; }
 
 .offer {
-  background: url("../img/bg.png") no-repeat center bottom/cover;
+  background: url("../img/bg.png") no-repeat center center/cover;
   height: 100vh;
   display: -webkit-box;
   display: -webkit-flex;
@@ -196,7 +196,9 @@ img {
           justify-content: space-between; }
   @media (max-width: 1440px) {
     .offer {
-      height: auto; } }
+      height: auto;
+      background: url("../img/bg.png") no-repeat center top/cover;
+      background-size: 95%; } }
   .offer__right {
     display: -webkit-box;
     display: -webkit-flex;
