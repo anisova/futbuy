@@ -5,15 +5,14 @@
   <title>Futbuy</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">  
   <link rel="stylesheet" href="css/normalize.css"> <!-- Подключаем normalize --> 
-  <link rel="stylesheet" href="css/main.css"> <!-- Подключаем CSS -->
-   
+  <link rel="stylesheet" href="css/main.css"> <!-- Подключаем CSS -->   
 </head>
 <body>
   <section class="offer">
-    <div class="wrapper"> 
-      <header class="header"> 
+    
+      <header class="header wrapper"> 
         <div>
-          <img src="./img/logo.png" alt="logo">
+          <img src="./img/logo.svg" alt="logo">
         </div>
         <nav class="offer__menu">
           <ul class="menu">
@@ -36,33 +35,66 @@
         </nav>
         <div class="user">
           <div class="user__count">            
-            <img src="./img/R.png" alt="" class="user__r">
+            <img src="./img/R.svg" alt="" class="user__r">
             <p class="user__money">11620</p>
           </div>
           <div class="user__desc">
             <div class="avatar">
-                <img src="./img/avatar.png" alt="" class="avatar__pic">
+                <img src="./img/avatar.svg" alt="" class="avatar__pic">
             </div>
-            
+            <!-- <div></div> -->
+            <div class="user__group">
             <div class="user__name">
              Юра Неживов
+             
             </div>
             <svg width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path class="arrow"  d="M7.24679 9.2511L0.863525 0.440521H13.6345L7.24679 9.2511Z" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
-            </svg>            
-           
+            </svg>  
+            <div class="dropdown">
+              <ul class="dropdown__menu">
+                <li class="dropdown__item">
+                  <a href="#" class="dropdown__link">
+                    <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M17.5615 3.10093C17.5085 3.03902 17.431 3.0034 17.3493 3.0034H4.15028L3.61209 1.19972C3.57647 1.08112 3.46756 1 3.34392 1H1.27973C1.12513 1 1 1.12513 1 1.27973C1 1.43432 1.12513 1.55945 1.27973 1.55945H3.13543L6.53579 12.9544C6.53617 12.9557 6.53729 12.9568 6.53766 12.9581L6.96005 14.3948C6.69337 14.6598 6.52815 15.0266 6.52815 15.4311C6.52815 16.2386 7.18476 16.8956 7.99168 16.8956C8.77268 16.8956 9.41064 16.2787 9.44999 15.5061H13.1161C13.1159 15.5163 13.1146 15.5264 13.1146 15.5368C13.1146 16.3436 13.7708 17 14.5774 17C15.3839 17 16.0404 16.3436 16.0404 15.5368C16.0404 14.7301 15.3839 14.0737 14.5774 14.0737C13.9808 14.0737 13.4674 14.4332 13.2401 14.9466H9.37017C9.29856 14.7424 9.18313 14.5546 9.02555 14.397C8.74936 14.1209 8.38236 13.9685 7.99224 13.9685C7.99205 13.9685 7.99186 13.9685 7.99186 13.9685C7.79997 13.9685 7.61703 14.0066 7.44901 14.0741L7.17861 13.1541H15.8824C16.0206 13.1541 16.1381 13.0532 16.1588 12.9167L17.6258 3.32528C17.6381 3.24471 17.6147 3.16285 17.5615 3.10093ZM14.5774 14.6333C15.0755 14.6333 15.4809 15.0387 15.4809 15.537C15.4809 16.0353 15.0755 16.4407 14.5774 16.4407C14.0793 16.4407 13.674 16.0353 13.674 15.537C13.674 15.0387 14.0793 14.6333 14.5774 14.6333ZM7.99186 14.5281H7.99205C8.2328 14.5281 8.45919 14.6221 8.62964 14.7928C8.80027 14.9634 8.89408 15.1904 8.89408 15.4315C8.89408 15.9305 8.48922 16.3365 7.99149 16.3365C7.49302 16.3365 7.08741 15.9305 7.08741 15.4315C7.0876 14.9334 7.49321 14.5281 7.99186 14.5281ZM15.642 12.5949H7.01394L6.48507 10.7957C6.47836 10.7729 6.46829 10.7522 6.45672 10.7326L4.31719 3.56286H17.0235L15.642 12.5949Z" fill="#FCFCFC" stroke="#828282" stroke-width="0.75"/>
+                      </svg>
+                    <p class="dropdown__text">Мои заказы</p></a>
+                </li>
+                <li class="dropdown__item">
+                  <a href="#" class="dropdown__link">
+                    <svg class="dropdown__img" width="17" height="20" viewBox="0 0 17 20" fill="none" stroke="#828282" stroke-width="0.75" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M10.2661 8.20595C10.1483 8.10201 9.96871 8.11301 9.86458 8.23099L5.92104 12.6986C5.8171 12.8164 5.82829 12.9962 5.94608 13.1001C6.00013 13.1479 6.06728 13.1713 6.13423 13.1713C6.21295 13.1713 6.29147 13.1388 6.34762 13.0751L10.2912 8.60749C10.3951 8.4897 10.3839 8.31008 10.2661 8.20595Z" />
+                      <path d="M6.67033 10.1372C6.99013 10.0007 7.23784 9.74745 7.36796 9.42462C7.49808 9.10141 7.49447 8.7471 7.35829 8.42674C7.22191 8.10619 6.96869 7.8579 6.64586 7.72798C5.97991 7.45921 5.21856 7.78336 4.94827 8.45083C4.81815 8.77404 4.82214 9.12854 4.95965 9.44928C5.09679 9.76964 5.35057 10.0175 5.6734 10.1475C5.83064 10.2108 5.99509 10.2423 6.15954 10.2423C6.33271 10.2425 6.50607 10.2074 6.67033 10.1372ZM5.48259 9.22546C5.4052 9.0447 5.40292 8.84516 5.47595 8.66402C5.59203 8.37723 5.86857 8.20254 6.15973 8.20254C6.25077 8.20254 6.34352 8.21961 6.43305 8.25584C6.61514 8.32906 6.75758 8.46885 6.83459 8.64942C6.9116 8.82999 6.91331 9.02972 6.8399 9.21181C6.7665 9.39408 6.6269 9.53672 6.44671 9.61373C6.26632 9.69055 6.06735 9.69263 5.88584 9.61961C5.70337 9.54639 5.56016 9.40622 5.48259 9.22546Z" />
+                      <path d="M16.2825 8.82278C16.2804 8.74729 16.2482 8.67578 16.1932 8.62381C16.1383 8.57203 16.0668 8.54415 15.9893 8.54642L14.3539 8.59631L14.723 7.43455C14.7457 7.36266 14.7391 7.28451 14.7044 7.21756C14.6697 7.15041 14.6097 7.09996 14.5379 7.0772L11.8365 6.21892L11.3762 1.25815C11.3625 1.11191 11.2235 1 11.0765 1C10.9577 1 10.8515 1.07378 10.81 1.18493L9.23682 5.39307L4.54576 3.90241C4.39668 3.85518 4.23621 3.93769 4.18842 4.08754L1.01344 14.0793C0.965832 14.2291 1.04872 14.389 1.19856 14.4366L6.29628 16.0566L6.37177 18.7235C6.37613 18.8777 6.50265 19 6.65609 19C6.65894 19 6.66159 19 6.66425 19L16.2774 18.729C16.3527 18.7269 16.4242 18.6948 16.4762 18.64C16.5279 18.5852 16.5558 18.512 16.5537 18.4365L16.2825 8.82278ZM10.9213 2.51247L11.2478 6.03171L9.77986 5.5653L10.9213 2.51247ZM4.64478 4.53081L14.0946 7.53337L11.092 16.9832L1.64202 13.9802L4.64478 4.53081ZM6.93264 18.4224L6.87081 16.2387L11.1909 17.6116C11.2189 17.6205 11.2479 17.6249 11.277 17.6249C11.3221 17.6249 11.3671 17.614 11.4076 17.593C11.4748 17.5583 11.5252 17.4983 11.548 17.4265L14.171 9.17121L15.7214 9.1238L15.9767 18.1675L6.93264 18.4224Z"/>
+                      <path d="M10.0789 11.6182C9.75589 11.4879 9.40119 11.4911 9.08026 11.6279C8.75971 11.7645 8.51143 12.0175 8.38131 12.3407C8.25119 12.6635 8.25499 13.0178 8.39174 13.3384C8.5285 13.6589 8.78209 13.907 9.10511 14.0366C9.26254 14.1001 9.42756 14.1318 9.5922 14.1318C9.76537 14.1318 9.93835 14.0967 10.1022 14.0269C10.4228 13.8905 10.6709 13.6373 10.801 13.3139C10.9311 12.9907 10.9275 12.6364 10.7913 12.3164C10.6551 11.996 10.4019 11.7481 10.0789 11.6182ZM10.2733 13.1015C10.2001 13.2836 10.0603 13.4262 9.87974 13.5032C9.69936 13.5802 9.50001 13.5819 9.31755 13.5085C9.13527 13.4355 8.99244 13.2957 8.91525 13.1149C8.83824 12.9344 8.83615 12.7348 8.90937 12.5531C8.98258 12.371 9.12256 12.2282 9.30332 12.1512C9.39588 12.1118 9.49338 12.092 9.59106 12.092C9.68419 12.092 9.77732 12.11 9.86647 12.1459C10.0486 12.2191 10.1912 12.3589 10.268 12.5391C10.3446 12.7195 10.3465 12.9192 10.2733 13.1015Z" />
+                      </svg>
+                    <p class="dropdown__text">Мои купоны</p></a>
+                </li>
+                <li class="dropdown__item">
+                  <a href="#" class="dropdown__link">
+                    <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M12.0103 12.2893C11.9392 12.2893 11.8681 12.2622 11.8139 12.2079L4.84454 5.23715C4.73607 5.12867 4.73607 4.95291 4.84454 4.84444C4.95301 4.73597 5.12877 4.73597 5.23705 4.84444L12.2062 11.8153C12.3147 11.9238 12.3147 12.0996 12.2062 12.2081C12.1523 12.262 12.0812 12.2893 12.0103 12.2893Z" fill="#A1A1A1" stroke="#828282" stroke-width="0.75"/>
+                      <path d="M5.04089 12.2893C4.96978 12.2893 4.89887 12.2622 4.84454 12.2081C4.73607 12.0996 4.73607 11.9238 4.84454 11.8153L11.8154 4.84444C11.9239 4.73597 12.0995 4.73597 12.208 4.84444C12.3164 4.95291 12.3164 5.12867 12.208 5.23715L5.23705 12.2081C5.18291 12.262 5.112 12.2893 5.04089 12.2893Z" fill="#A1A1A1" stroke="#828282" stroke-width="0.75"/>
+                      <path d="M8.5009 16C4.36482 16 1 12.6359 1 8.5009C1 4.36497 4.36482 1 8.5009 1C12.6356 1 15.9994 4.36497 15.9994 8.5009C15.9994 12.6358 12.6356 16 8.5009 16ZM8.5009 1.43678C4.60571 1.43678 1.43693 4.60571 1.43693 8.50075C1.43693 12.3949 4.60586 15.5629 8.5009 15.5629C12.3947 15.5629 15.5625 12.3947 15.5625 8.50075C15.5626 4.60571 12.3947 1.43678 8.5009 1.43678Z" fill="#A1A1A1" stroke="#828282" stroke-width="0.75"/>
+                      </svg>
+                    <p class="dropdown__text">Выход</p>
+                  </a>
+                </li>                
+              </ul>
+             </div>          
+          </div>
         </div>        
         </div>
       </header>
 
-      <div class="offer__group">
+      <div class="offer__group wrapper">
         <h1 class="h1">
           Лучшая <br> платформа <br> для покупки <br> монет <span> fut 21 </span>          
         </h1>
         <div class="offer__right">
           <div class="buttons">
             <a href="#" class="btn btn_buy">
-              <img src="./img/coins.png" alt="" class="btn__pic">
+              <img src="./img/coins.svg" alt="" class="btn__pic">
               <p> Купить монеты</p>
             </a>
             <a href="#" class="btn btn_work">Как это работает?</a>
@@ -83,85 +115,105 @@
           </a>
 
         </div>
-      </div>       
-    </div>
-  </section>
-
-  <section class="advantages wrapper" id="advantages">
-    <div class="advantage">
+      </div>  
+     <div class="offer__advantages wrapper" id="advantages">
+       <div class="advantage">
+        <div>
+          <img src="./img/profit.svg" alt="">
+        </div>
+        <div class="advantage__desc">
+          <h2 class="h2">
+            Выгода,<br> которая реальна
+          </h2>
+       </div>
+     </div>  
+      
+     <div class="advantage">
       <div>
-        <img src="./img/profit.png" alt="">
-      </div>
-      <div class="advantage__desc">
-        <h2 class="h2">
-          Выгода,<br> которая реальна
-        </h2>
-        <p class="advantage__text">Самый выгодный курс среди
-          сервисов  с  автоматической
-          доставкой только у нас, а все
-          новые пользователи получат
-          10 000 монет в подарок</p>
-      </div>
-    </div>
-    <div class="advantage">
-      <div>
-        <img src="./img/Security.png" alt="">
+        <img src="./img/Security.svg" alt="">
       </div>
       <div class="advantage__desc">
         <h2 class="h2">
           Безопасность <br> аккаунта
         </h2>
-        <p class="advantage__text">Продажа осуществляется по уникальным алгоритмам:
-          1 поставщик может выкупить
-          в заказе лишь одного игрока. Поэтому твой аккаунт будет жить еще много лет </p>
+        
       </div>
     </div>
+    
     <div class="advantage">
       <div>
-        <img src="./img/speed.png" alt="">
+        <img src="./img/speed.svg" alt="">
       </div>
       <div class="advantage__desc">
         <h2 class="h2">
           Передадим <br> очень быстро
           
         </h2>
-        <p class="advantage__text">Благодаря автоматизированной доставке и большому количеству поставщиков с показателем скорости, как
-          у Мбаппе, покупка монет 
-          займет считанные минуты</p>
+        
       </div>
     </div>
     <div class="advantage">
       <div>
-        <img src="./img/easy.png" alt="">
+        <img src="./img/easy.svg" alt="">
       </div>
       <div class="advantage__desc">
         <h2 class="h2">
           У нас <br> все просто
         </h2>
-        <p class="advantage__text">Самый выгодный курс среди
-          сервисов  с  автоматической
-          доставкой только у нас, а все
-          новые пользователи получат
-          10 000 монет в подарок</p>
+       
       </div>
     </div>
     <div class="advantage">
       <div>
-        <img src="./img/draw.png" alt="">
+        <img src="./img/draw.svg" alt="">
       </div>
       <div class="advantage__desc">
         <h2 class="h2">
           Разыгрываем <br> 100к монет в день
         </h2>
+     
+      </div>
+    </div>
+    </div>
+    
+    
+  </section>
+
+  <section class="advantages wrapper" >
+    <div class="advantage">     
+        <p class="advantage__text">Самый выгодный курс среди
+          сервисов  с  автоматической
+          доставкой только у нас, а все
+          новые пользователи получат
+          10 000 монет в подарок</p>
+      </div>    
+    <div class="advantage">
+        <p class="advantage__text">Продажа осуществляется по уникальным алгоритмам:
+          1 поставщик может выкупить
+          в заказе лишь одного игрока. Поэтому твой аккаунт будет жить еще много лет </p>      
+    </div>
+    <div class="advantage">
+        <p class="advantage__text">Благодаря автоматизированной доставке и большому количеству поставщиков с показателем скорости, как
+          у Мбаппе, покупка монет 
+          займет считанные минуты</p>      
+    </div>
+    <div class="advantage">     
+        <p class="advantage__text">Самый выгодный курс среди
+          сервисов  с  автоматической
+          доставкой только у нас, а все
+          новые пользователи получат
+          10 000 монет в подарок</p>
+      
+    </div>
+    <div class="advantage">          
         <p class="advantage__text">Это всё? Может еще что? 
           Окей. Если тебе мало, то... Каждый день мы разыгрываем 100 000 монет.
-          Проверь в нашей группе ВК.</p>
-      </div>
+          Проверь в нашей группе ВК.</p>      
     </div>
   </section>
   <section class="reviews-div">
-    <img src="./img/bg1.png" alt="" class="reviews-div__img1">
-    <img src="./img/bg2.png" alt="" class="reviews-div__img2">
+    <img src="./img/bg1.svg" alt="" class="reviews-div__img1">
+    <img src="./img/bg2.svg" alt="" class="reviews-div__img2">
     <div class="wrapper center">
     <a href="#reviews" class="reviews__link">
       <div class="offer__arrows">
@@ -184,7 +236,7 @@
   <div class="reviews__left">
     <div class="review">
       <div class="review__desc">
-        <img src="./img/avatar.png" alt="">
+        <img src="./img/avatar.svg" alt="">
 
         <div class="review__desc-group">
         <p class="review__name">
@@ -220,7 +272,7 @@
     </div>
     <div class="review">
       <div class="review__desc">
-        <img src="./img/avatar.png" alt="">
+        <img src="./img/avatar.svg" alt="">
 
         <div class="review__desc-group">
         <p class="review__name">
@@ -256,7 +308,7 @@
     </div>
     <div class="review">
       <div class="review__desc">
-        <img src="./img/avatar.png" alt="">
+        <img src="./img/avatar.svg" alt="">
 
         <div class="review__desc-group">
         <p class="review__name">
@@ -292,7 +344,7 @@
     </div>
     <div class="review">
       <div class="review__desc">
-        <img src="./img/avatar.png" alt="">
+        <img src="./img/avatar.svg" alt="">
 
         <div class="review__desc-group">
         <p class="review__name">
@@ -328,7 +380,7 @@
     </div>
     <div class="review">
       <div class="review__desc">
-        <img src="./img/avatar.png" alt="">
+        <img src="./img/avatar.svg" alt="">
 
         <div class="review__desc-group">
         <p class="review__name">
@@ -364,7 +416,7 @@
     </div>
     <div class="review">
       <div class="review__desc">
-        <img src="./img/avatar.png" alt="">
+        <img src="./img/avatar.svg" alt="">
 
         <div class="review__desc-group">
         <p class="review__name">
@@ -400,7 +452,7 @@
     </div>
     <div class="review">
       <div class="review__desc">
-        <img src="./img/avatar.png" alt="">
+        <img src="./img/avatar.svg" alt="">
 
         <div class="review__desc-group">
         <p class="review__name">
@@ -461,7 +513,7 @@
 </div>
 <div class="wrapper">
   <a href="#" class="btn btn__review"> 
-    <img src="./img/reviews.png" alt="" class="btn__pic">
+    <img src="./img/reviews.svg" alt="" class="btn__pic">
     <p> Все отзывы</p>  
   </a>
 </div>

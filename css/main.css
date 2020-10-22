@@ -113,7 +113,7 @@ img {
   font-style: italic;
   font-size: 27px;
   text-align: center;
-  margin: 20px 0 30px 0;
+  margin: 20px 0 10px 0;
   text-transform: uppercase;
   line-height: 33px; }
 
@@ -174,7 +174,23 @@ img {
 
 .offer {
   background: url("../img/bg.png") no-repeat center bottom/cover;
-  height: 700px; }
+  height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  @media (max-width: 1200px) {
+    .offer {
+      height: auto; } }
   .offer__right {
     display: -webkit-box;
     display: -webkit-flex;
@@ -198,7 +214,13 @@ img {
     -webkit-justify-content: space-between;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    margin-top: 170px; }
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    @media (max-width: 1200px) {
+      .offer__group {
+        height: 95vh; } }
   .offer__adv {
     display: -webkit-box;
     display: -webkit-flex;
@@ -218,9 +240,9 @@ img {
     line-height: 16px;
     letter-spacing: 0.2em; }
     .offer__adv:hover {
-      color: #44FFC9; }
+      color: #F4B746; }
       .offer__adv:hover .arrow_down-p {
-        stroke: #44FFC9; }
+        stroke: #F4B746; }
   .offer__adv-text {
     margin-left: 16px; }
   .offer__arrows {
@@ -233,6 +255,18 @@ img {
     -webkit-flex-direction: column;
         -ms-flex-direction: column;
             flex-direction: column; }
+  .offer__advantages {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
 
 .header {
   padding-top: 24px;
@@ -301,6 +335,17 @@ img {
     font-family: "DIN pro";
     font-size: 18px;
     font-weight: 500; }
+  .user__group {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 10px; }
   .user__desc {
     margin-left: 20px;
     display: -webkit-box;
@@ -313,15 +358,16 @@ img {
             align-items: center;
     cursor: pointer; }
     .user__desc:hover .user__name {
-      color: #44FFC9; }
+      color: white; }
     .user__desc:hover .arrow {
-      stroke: #44FFC9; }
+      stroke: white; }
   .user__name {
-    margin: 0 10px;
+    margin: 0 10px 0 0;
     font-weight: 700;
     font-style: italic;
     letter-spacing: 0.05em;
-    font-size: 18px; }
+    font-size: 18px;
+    position: relative; }
 
 .avatar__pic {
   width: 30px;
@@ -347,6 +393,29 @@ img {
   .arrow_down:last-child {
     margin: 0; }
 
+.dropdown {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  margin-top: 12px; }
+  .dropdown__link {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-decoration: none;
+    color: #828282; }
+    .dropdown__link:hover {
+      color: white; }
+    .dropdown__link:active {
+      color: #00F1FC; }
+  .dropdown__text {
+    margin-left: 12px; }
+  .dropdown__item {
+    margin-top: 16px; }
+
 .advantages {
   display: -webkit-box;
   display: -webkit-flex;
@@ -359,7 +428,7 @@ img {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: 50px; }
+  margin-top: 20px; }
 
 .advantage {
   width: 19%;
@@ -430,9 +499,9 @@ img {
   line-height: 16px;
   letter-spacing: 0.2em; }
   .reviews__link:hover {
-    color: #44FFC9; }
+    color: #F4B746; }
     .reviews__link:hover .arrow_down-p {
-      stroke: #44FFC9; }
+      stroke: #F4B746; }
 
 .reviews__group {
   display: -webkit-box;
@@ -511,9 +580,9 @@ img {
   .review__name {
     font-family: "DINpro Condensed";
     font-weight: 900;
-    font-size: 30px;
+    font-size: 25px;
     font-style: italic;
-    line-height: 36px;
+    line-height: 30px;
     text-transform: uppercase; }
   .review__date {
     font-family: "DIN pro";
