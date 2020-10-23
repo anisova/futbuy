@@ -108,11 +108,12 @@ img {
   font-size: 80px;
   text-transform: uppercase;
   color: #D843FF;
-  line-height: 60px;
+  line-height: 74px;
   letter-spacing: 0.02em; }
-  @media (max-width: 1920px) {
+  @media (max-width: 1900px) {
     .h1 {
-      font-size: 70px; } }
+      font-size: 70px;
+      line-height: 60px; } }
   .h1 > span {
     color: white; }
 
