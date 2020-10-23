@@ -105,11 +105,14 @@ img {
   font-family: "DINpro Condensed";
   font-weight: 700;
   font-style: italic;
-  font-size: 70px;
+  font-size: 80px;
   text-transform: uppercase;
   color: #D843FF;
   line-height: 60px;
   letter-spacing: 0.02em; }
+  @media (max-width: 1920px) {
+    .h1 {
+      font-size: 70px; } }
   .h1 > span {
     color: white; }
 
@@ -310,6 +313,15 @@ img {
       color: white; }
     .menu__link:active {
       color: #44FFC9; }
+    .menu__link_bold {
+      font-family: "DIN pro", sans-serif;
+      font-weight: 700; }
+
+.menu__link_reg:active {
+  color: #EC1FF2; }
+
+.menu__link_enter:hover {
+  color: #01EFFA; }
 
 .user {
   display: -webkit-box;
